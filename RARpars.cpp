@@ -34,7 +34,7 @@ int main()
     setlocale(LC_ALL, "Russian");
 
 
-    string filename = "Example.rar";
+    string filename = "test.rar";
 
     // Открываем файл
     ifstream file(filename, ios::binary);
